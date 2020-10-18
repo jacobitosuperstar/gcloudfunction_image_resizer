@@ -1,0 +1,25 @@
+
+#database
+db.sqlite3
+
+#caches
+*pyc
+
+#i hate you apple
+.DS_Store
+
+#virtualenviroment
+venv/
+Pipfile.lock
+
+#GoogleCLoud
+app.yaml
+
+#json files
+*.json
+
+#enviroment variables
+.env
+
+#zsh scrips
+*.zsh
