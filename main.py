@@ -4,7 +4,7 @@ from google.cloud import storage
 from wand.image import Image
 
 storage_client = storage.Client()
-PREFIX = "modificada"
+PREFIX = "modificado"
 
 
 def image_reziser(event, context):
