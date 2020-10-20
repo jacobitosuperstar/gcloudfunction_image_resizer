@@ -70,5 +70,6 @@ def image_reziser(event, context):
 
     # Eliminar directorio temporal de archivos.
     os.remove(temp_local_filename)
-    # Eliminando el blob original
-    bucket_name.delete_blob(file_name)
+    print("finalizado el proceso exitosamente")
+    storage_client.bucket(bucket_name).delete_blob(file_name)
+    print("Eliminada la imagen original exitosamente")
